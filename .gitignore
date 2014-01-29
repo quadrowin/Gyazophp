@@ -2,3 +2,4 @@ i/*.png
 u/*/*.png
 u/settings.dropbox.php
 u/settings.users.php
+vendor/*
