@@ -9,7 +9,7 @@ if (
 }
 
 $login = $_REQUEST['login'];
-$users = require __DIR__ . '/users.php';
+$users = require __DIR__ . '/settings.users.php';
 if (
     !is_string($login)
     || empty($users[$login])

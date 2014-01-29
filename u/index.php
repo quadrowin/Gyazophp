@@ -1,7 +1,7 @@
 <?php
 
 $login = isset($_REQUEST['login']) ? $_REQUEST['login'] : '';
-$users = require __DIR__ . '/users.php';
+$users = require __DIR__ . '/settings.users.php';
 
 if (isset($_REQUEST['logout'])) {
     if (isset($_COOKIE['login'])) {

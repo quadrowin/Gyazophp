@@ -1,3 +1,4 @@
 i/*.png
 u/*/*.png
-u/users.php
+u/settings.dropbox.php
+u/settings.users.php

@@ -1,5 +1,5 @@
 <?php
-$users = require __DIR__ . '/users.php';
+$users = require __DIR__ . '/settings.users.php';
 $login = isset($_COOKIE['login']) ? $_COOKIE['login'] : '';
 $pass = isset($_COOKIE['pass']) ? $_COOKIE['pass'] : '';
 if (
